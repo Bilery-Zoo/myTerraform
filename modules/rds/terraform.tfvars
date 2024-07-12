@@ -1,0 +1,5 @@
+aws_region           = "ap-northeast-1"
+aws_prefer_az        = "ap-northeast-1a"
+rds_instance_class   = "db.t3.micro"
+mysql_engine_version = "8.0.35"
+mysql_time_zone      = "Asia/Tokyo"

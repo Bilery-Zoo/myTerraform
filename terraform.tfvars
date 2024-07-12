@@ -1,0 +1,8 @@
+aws_region           = "ap-northeast-1"
+aws_prefer_az        = "ap-northeast-1a"
+aws_secondary_az     = "ap-northeast-1c"
+ec2_prefer_ami       = "ami-0a0b7b240264a48d7"
+ec2_instance_type    = "t2.micro"
+rds_instance_class   = "db.t3.micro"
+mysql_engine_version = "8.0.35"
+mysql_time_zone      = "Asia/Tokyo"
