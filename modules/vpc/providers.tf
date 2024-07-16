@@ -17,5 +17,5 @@ provider "aws" {
   region                   = var.aws_region
   shared_config_files      = ["${local.aws_profile_folder}/config"]
   shared_credentials_files = ["${local.aws_profile_folder}/credentials"]
-  profile                  = "dba-role"
+  profile                  = "role-dba"
 }

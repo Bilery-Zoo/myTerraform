@@ -1,0 +1,23 @@
+# syntax
+terraform fmt
+terraform validate
+
+# init
+terraform init
+
+# plan
+terraform plan
+terraform plan -target=module.rds.aws_db_instance.aws-rds-mysql-general
+terraform plan -var-file=modules/rds/terraform.tfvars -target=module.rds.aws_db_instance.aws-rds-mysql-general
+
+# status
+terraform show
+terraform state list
+terraform state show module.rds.aws_db_instance.aws-rds-mysql-general
+terraform state rm module.rds.aws_db_instance.aws-rds-mysql-general
+
+# import
+terraform import module.rds.aws_db_instance.aws-rds-mysql-general aws-rds-mysql-general
+
+# destroy
+terraform destroy -target=module.rds.aws_db_instance.aws-rds-mysql-general

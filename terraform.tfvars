@@ -1,4 +1,4 @@
-my_public_key        = "ssh-rsa omitted dba"
+my_public_key        = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHdNuFCqEONKXbOSA1sp2+MB7HMAsiyrhfY2t/dIVdMzwO4JDL0kbhE4BsykqnhEChHVVKO2SpXdZrzNUt0XEjJkjZuolsTA1MFlTlQ95qZiEWaIwHuR4uZkmIZyLpaO/WR+tHz3nk1O1glYVHNJmmmB41/XwqyzLIi7d2gqjOP+2ZhxuqN9a+n7L8BBAzpLzwfjUsvaUZZGGJf6mNDVmkwATbEhmey/sjUSe/m1Y/yewQ5Qc+c6SSZPHBZbZA/fc5lky5KtbuE1+EJcEmz+zd0HjgUJ55IwYURNTiggqvKoLB17B/ARKF4PJ2BonI21upMFoJ+Oa3KbWHZH7uFY3P dba"
 aws_region           = "ap-northeast-1"
 aws_prefer_az        = "ap-northeast-1a"
 aws_secondary_az     = "ap-northeast-1c"

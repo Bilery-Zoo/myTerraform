@@ -38,8 +38,8 @@ resource "aws_db_instance" "aws-rds-mysql-general" {
   multi_az                              = false
   nchar_character_set_name              = null
   network_type                          = "IPV4"
-  option_group_name                     = aws_db_option_group.aws-rds-option-group-general-v80.name
-  parameter_group_name                  = aws_db_parameter_group.aws-rds-parameter-group-general-v80.name
+  option_group_name                     = aws_db_option_group.aws-rds-mysql-option-group-general-v80.name
+  parameter_group_name                  = aws_db_parameter_group.aws-rds-mysql-parameter-group-general-v80.name
   performance_insights_enabled          = false
   performance_insights_kms_key_id       = null
   performance_insights_retention_period = 0

@@ -12,4 +12,3 @@ output "Password" {
   value       = random_password.aws-rds-mysql-general-password.result
   description = "RDS Password"
 }
-

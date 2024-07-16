@@ -1,4 +1,4 @@
-resource "aws_db_parameter_group" "aws-rds-parameter-group-general-v80" {
+resource "aws_db_parameter_group" "aws-rds-mysql-parameter-group-general-v80" {
   description = "parameter group general v80"
   family      = "mysql8.0"
   name        = "aws-rds-parameter-group-general-v80"
