@@ -1,3 +1,4 @@
+my_public_key        = "ssh-rsa omitted dba"
 aws_region        = "ap-northeast-1"
 aws_prefer_az     = "ap-northeast-1a"
 ec2_prefer_ami    = "ami-0a0b7b240264a48d7"

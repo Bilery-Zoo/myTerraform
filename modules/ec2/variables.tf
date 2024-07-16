@@ -1,3 +1,8 @@
+variable "my_public_key" {
+  type        = string
+  description = "My public key"
+}
+
 variable "aws_region" {
   default     = "ap-northeast-1"
   type        = string

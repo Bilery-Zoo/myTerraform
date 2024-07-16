@@ -1,9 +1,9 @@
 resource "aws_key_pair" "aws-ec2-key-general" {
   key_name   = "aws-ec2-key-general"
-  public_key = "ssh-rsa ...omitted...  dba"
+  public_key = var.my_public_key
   tags = {
     "Service"      = "EC2"
-    "Distribution" = "AL"
+    "Distribution" = "Ubuntu"
     "Environment"  = "POC"
   }
 }

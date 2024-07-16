@@ -12,6 +12,7 @@ module "ec2" {
     aws = aws.dba
   }
   source                    = "./modules/ec2"
+  my_public_key             = var.my_public_key
   aws_prefer_az             = var.aws_prefer_az
   ec2_prefer_ami            = var.ec2_prefer_ami
   ec2_instance_type         = var.ec2_instance_type
